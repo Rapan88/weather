@@ -1,14 +1,5 @@
 <template>
-
-<div class="container">
-  <div class="row">
-    <div class="col-2" >x</div>
-     <div class="col-8" >
-       <WeatherModal/>
-     </div>
-      <div class="col-2">x</div>
-  </div>
-</div>
+  <WeatherModal />
 </template>
 
 <script>
@@ -21,5 +12,4 @@ export default {
 </script>
 
 <style>
-
 </style>

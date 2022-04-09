@@ -62,7 +62,9 @@ export default {
           weather: x.weather_state_name,
           cityName: res.title,
           sunRise: res.sun_rise,
-          sunSet: res.sun_set
+          sunSet: res.sun_set,
+          time: res.time,
+          country: res.parent.title
         });
       });
       console.log(this.forecast);
